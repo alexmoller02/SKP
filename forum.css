@@ -1,0 +1,53 @@
+.headerFixedBar{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.headerLogoText{
+  color: #d6340d;
+  font-size: 1.2em;
+  line-height: 1.2em;
+}
+
+.headerLogoText:hover{
+  color: #831506;
+  text-decoration: none;
+  font-size: 1.3em;
+  font-weight: 500;
+}
+
+.headerLogoImage{
+  width: 25px;
+  height: 25px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.logoutButton{
+  background-color: #831506;
+  color: white;
+  border-color: black;
+  border-width: thin;
+  font-weight: 500;
+
+}
+
+.logoutButton:hover{
+  background-color: white;
+  color: #d6340d;
+  border-width: thin;
+  border-color: #831506;
+  font-weight: 700;
+}
+
+/* <div class="headerFixedBar">
+  <div class="row">
+    <div class="col-lg-6 text-left">
+      <div class="headerLogoImage">
+        <img class="headerLogoImage" src="./files/logo.png"/>
+      </div>
+      <a class="headerLogoText" href="forum.html" title="test.com">test</a>
+
+    </div> */
